@@ -1,0 +1,190 @@
+/*starting with the about us info*/
+#welcome_message{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    h2{
+        font-weight: 100;
+        font-size: 34px;
+        color: rgba(0, 0, 0, 0.68);
+    }
+    button{
+        border: none;
+        padding: 0.4rem 2rem;
+        border-radius: 4px;
+        background-color: #E67E22;
+        color: white;
+        font-size: 11px;
+    }
+}
+/*introducing some lcards and an image*/
+#first_landingcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+    h3{
+        font-weight: 200;
+        font-size: 40px;
+        color: rgba(0, 0, 0, 0.516);
+    }
+}
+#about_image{
+    padding-top: 3rem;
+}
+#about_image img{
+    height: 500px;
+    width: 100%;
+    position: relative;
+   
+}
+/*More info about YesHub*/
+#about_message{
+    min-height: 60vh;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    button{
+        padding: 0.4rem 1rem;
+        border: none;
+        background-color: #E67E22;
+        color: white;
+        border-radius: 2px;
+        font-size: 11px;
+    }
+}
+#small_info{
+    
+    p{
+        font-size: 32px;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.386);
+        text-align: center;
+    }
+}
+#small_info2{
+    p{
+        font-size: 12px;
+    }
+
+}
+/*Adding a liitle more information about the website that makes us unique*/
+#about_message2{
+    padding-top: 2rem;
+    min-height: 40vh;
+    margin: auto;
+    background-color: #ECF0F1;
+    h2{
+        font-size: 35px;
+        font-weight: 200;
+        color: rgba(0, 0, 0, 0.386);
+        text-align: center;
+    }
+}
+#flexable{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8rem;
+    width: 70%;
+    margin: auto;
+    line-height: 17.5px;
+    gap: 8rem;
+    p{
+        font-size: 11px;
+    }
+    ul{
+        font-size: 11px;
+    }
+
+}
+#flexable_1{
+    flex: 2 1 20rem;
+}
+#flexable_2{
+    flex: 2 1 20rem;
+}
+/*adding another set of lcards to finish everything*/
+#last_lcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button{
+        border: none;
+        border-radius: 2px;
+        background-color: #E67E22;
+        color: white;
+        font-size: 11px;
+        padding: 0.3rem 1.2rem;        
+    }
+}
+#last_lcard_button{
+    padding-bottom: 3rem;
+}
+#lcard_heading{
+    padding-top: 3rem;
+    h1{
+        font-size: 34px;
+        font-weight: 200;
+        color: rgba(0, 0, 0, 0.386);
+        text-align: center;
+    }
+}
+#about_lcard{
+    width: 65%;
+    margin: auto;
+    min-height: 40vh;
+    background-color: #fafeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0.8rem;
+    
+}
+.l_card{
+    width: 68%;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.153);
+    height: 180px;
+    gap: 10px;
+    border-radius: 4.5px;
+    background-color: white;
+    font-size: 11px;
+    span{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+.l_card i{
+    font-size: 32px;
+}
+.l_card p{
+    font-size: 13px;
+}
+
+.head{
+    background-color: #ECF0F1;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.list{
+    padding: 1rem;
+}

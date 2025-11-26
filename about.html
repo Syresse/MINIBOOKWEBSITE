@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="image/clouds-fill-svgrepo-com.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
      <!--creating header section of web page-->
@@ -14,16 +15,132 @@
         <nav id="nav_bar">
             <h3 id="logo"><span id="half_logo2">Yes</span><span id="half_logo">Hub</span></h3>
             <ul id="nav_list">
-                <li><i class="fa-solid fa-house" ></i><a href="index.html">Home</a></li>
-                <li><i class="fa-solid fa-address-card"></i><a href="about.html">About Us</a></li>
-                <li><i class="fa-solid fa-screwdriver-wrench"></i><a href="">Services</a></li>
-                <li><i class="fa-solid fa-phone"></i><a href="">Contact</a></li>
+                <li ><a href="index.html">Home</a></li>
+                <li class="active"><a href="about.html">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="form.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!--Creating the main part of the about page-->
     <main>
-
+        <section id="welcome_message">
+            <h2>We are YesHub</h2>
+            <p>A popular website with various content for various book lovers</p>
+            <button>ENQUIRE</button>
+        </section>
+        <!--introducing some lcards and an image-->
+        <section id="first_landingcard">
+            <div>
+                <h3>200+</h3>
+                <p>BOOKS</p>
+            </div>
+            <div>
+                <h3>50+</h3>
+                <p>AUTHORS</p>
+            </div>
+            <div>
+                <h3>2MILLION+</h3>
+                <p>READERS</p>
+            </div>
+            
+        </section>
+        <section id="about_image">
+            <div ><img src="image/big_library.jpg" alt=""></div>
+        </section>
+        <!--More info about YesHub-->
+         <section id="about_message">
+           <div id="small_info"><p>Reading tends to do different things for different people.At YesHub we understand 
+                this and that is why we provide different genres from different
+                 authors with unique writing styles.We provide nothing but the best.</p></div> 
+            <div id="small_info2">
+                <p>We`re fundermentally interested in creating 
+                    an evironment where one can get lost in the thier own world through books</p>
+            </div>
+            <button>MEET THE AUTHORS</button>
+        </section>
+        <!--Adding a liitle more information about the website that makes us unique-->
+        <section id="about_message2">
+            <div><h2>What sets us apart from other websites?</h2></div>
+            <div id="flexable">
+                <div id="flexable_1">
+                    <p>When you engage our authors and are willing to be one they teach you
+                    everything you need to know to be a great author. How to find inspirations,the 
+                    kind of stories to invest in,how you should manage your time to 
+                    abtain amazing achievements in the career of writing  </p>
+                </div>
+                <div id="flexable_2">
+                    <ul>
+                        <li>Our books are free</li>
+                        <li>We give cintent from famous authors</li>
+                        <li>Best-selling content available</li>
+                        <li>Books of various genre</li>
+                    </ul>
+                </div> 
+            </div>    
+        </section>
+        <!--Adding another lcard section to finish everything-->
+        <section id="last_lcard">
+            <div id="lcard_heading">
+                <h1>Our Sections</h1>
+            </div>
+            <div id="about_lcard">
+                <div class="l_card1 l_card">
+                    <div class="design_1 head">
+                        <i class="fa-regular fa-house"></i>
+                        <h2>Home</h2>
+                    </div>
+                    <div class="design1 list">
+                        <ul>
+                            <li>Select a story from home</li>
+                            <li>Add stories to your library</li>
+                            <li>Get a variety of books</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_card2 l_card">
+                    <div class="design_2 head">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <h2>Search</h2>
+                    </div>
+                    <div class="design2 list">
+                        <ul>
+                            <li>Searching for a book in particular...</li>
+                            <li>Exploring different books of the same genre</li>
+                            <li>Searching for a book with a concept you like...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_card3 l_card">
+                    <div class="design_3 head">
+                        <i class="fa-solid fa-pen"></i>
+                        <h2>Compose</h2>
+                    </div>
+                    <div class="design3 list">
+                         <ul>
+                            <li>Compose your own story</li>
+                            <li>Post to see what others think about it</li>
+                            <li>Update and edit your story to increase the amout of reads</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_card4 l_card">
+                    <div class="design_4 head">
+                        <i class="fa-solid fa-file"></i>
+                        <h2>Library</h2>
+                    </div>
+                    <div class="design4 list">  
+                        <ul>
+                            <li>Access stories offline</li>
+                            <li>Add stories or books you want to read later</li>
+                            <li>Keep track of books you are already reading</li>
+                        </ul>
+                    </div> 
+                </div>
+                
+            </div>
+            <div id="last_lcard_button"><button>LEARN MORE</button></div>
+        </section>
     </main>
     <!--footer section of the website-->
     <footer id="footer">

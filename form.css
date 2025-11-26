@@ -1,0 +1,80 @@
+/*designing the form of the webpage*/
+#contact_form{
+    min-height: 95vh;
+    background-image: url('image/background_for_form.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#actual_form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 2rem 2.5rem ;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+    background-color:  #ecf0f1d6;
+    border-radius: 3px;
+    button{
+        padding:0.6rem ;
+        color: white;
+        background-color:#E67E22 ;
+        border: none;
+        border-radius: 2px;
+    }
+}
+#form_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem 1rem 1rem;
+    h2{
+        opacity: 0.4;
+        font-weight: 550;
+    }
+}
+#form_content{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0rem;
+    position: relative;
+    input{
+        padding: 0.6rem;
+        border-radius: 2px;
+        border: none;
+    }
+    span{
+        position: absolute;
+        left: 93%;
+        top: 61%;
+    }
+    
+}
+#first_alt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    a{
+        color: #E67E22;
+        font-weight: 600;
+    }
+    p{
+        padding: 0.4rem;
+    }
+}
+#second_alt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#changling{
+    color: #E67E22;
+}
