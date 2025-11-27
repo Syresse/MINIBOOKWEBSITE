@@ -273,14 +273,12 @@ i{
 }
 @media (max-width:600px) {
 
-    #nav_bar{
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: 100%;
-        padding: 0rem;
-        
-    }
-    .menu_button{
-
-    }
+  #nav_bar{
+    flex-wrap: wrap;
+  }
+  #nav_list{
+    flex-direction: column;
+    width: 100%;
+    padding: 0rem;
+  }
 }
