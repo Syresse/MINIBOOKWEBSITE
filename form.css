@@ -78,3 +78,17 @@
 #changling{
     color: #E67E22;
 }
+@media (min-width:768px) {
+    #contact_form{
+        min-height: 60vh;
+    }
+    #actual_form{
+        width: 53%;
+    }
+    #form_content{
+        span{
+            left: 90%
+            ;
+        }
+    }
+}

@@ -92,11 +92,10 @@
     }
 }
 #flexable{
-    padding-top: 1rem;
+    padding-top: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 8rem;
     width: 70%;
     margin: auto;
     line-height: 17.5px;
@@ -145,7 +144,7 @@
 #about_lcard{
     width: 65%;
     margin: auto;
-    min-height: 40vh;
+    min-height: 35vh;
     background-color: #fafeff;
     display: flex;
     justify-content: center;
@@ -153,23 +152,22 @@
     gap: 8px;
     padding: 0.8rem;
     
+    
 }
 .l_card{
     width: 68%;
     margin: auto;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.153);
-    height: 180px;
+    height: 200px;
     gap: 10px;
     border-radius: 4.5px;
     background-color: white;
     font-size: 11px;
-    span{
-        font-size: 18px;
-        font-weight: 600;
-    }
+    flex: 1 1 15rem;
 }
+
 .l_card i{
-    font-size: 32px;
+    font-size: 23px;
 }
 .l_card p{
     font-size: 13px;
@@ -187,4 +185,14 @@
 }
 .list{
     padding: 1rem;
+}
+@media (min-width:851px) {
+    #last_lcard{
+        flex-wrap: wrap;
+    }
+    #about_lcard{
+        flex-wrap: wrap;
+        min-height: 45vh;
+    }
+    
 }
