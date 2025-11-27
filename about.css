@@ -186,7 +186,7 @@
 .list{
     padding: 1rem;
 }
-@media (min-width:851px) {
+@media (max-width:812px) {
     #last_lcard{
         flex-wrap: wrap;
     }

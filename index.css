@@ -243,6 +243,12 @@ i{
         font-style: bold;
     }
 }
+.menu_button{
+    color: #E67E22;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
 /*adding a media query to our website*/
 @media (max-width:768px) {
     #landing_page{
@@ -262,5 +268,19 @@ i{
     #landing_card{
         flex-wrap: wrap;
         min-height: 25vh;
+    }
+    
+}
+@media (max-width:600px) {
+
+    #nav_bar{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding: 0rem;
+        
+    }
+    .menu_button{
+
     }
 }
