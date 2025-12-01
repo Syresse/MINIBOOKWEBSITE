@@ -14,8 +14,8 @@
     <header id="navigation">
         <nav id="nav_bar">
             <h3 id="logo"><span id="half_logo2">Yes</span><span id="half_logo">Hub</span></h3>
-            <div class="menu_button">≡</div>
-            <ul id="nav_list">
+            <div class="menu_button" id="menu_button">≡</div>
+            <ul id="nav_list" class="nav_list">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="">Services</a></li>
@@ -25,18 +25,20 @@
     </header>
     <!--working on the landing page of the website-->
     <main>
-        <section id="landing_page">
-            <div id="landing_message">
-                <h3>Welcome to my website</h3>
-                <p>Hey there!Welcome to my first website.Here,you can access various books 
-                    from renouned authors all over the world.You can search through various
-                    genres,romance,fiction,adventure,horror,comedy,history and many more.
-                </p>
+        <section id="landingpage_parent">
+            <div id="landing_page">
+                <div id="landing_message">
+                    <h3>Welcome to my website</h3>
+                    <p>
+                        Hey there!Welcome to my first website.Here,you can access various books 
+                        from renouned authors all over the world.You can search through various
+                        genres,romance,fiction,adventure,horror,comedy,history and many more.
+                    </p>
+                </div>
+                <div id="landing_image">
+                    <img src="image/books_in_hand.jpg" alt="">
+                </div>
             </div>
-            <div id="landing_image">
-                <img src="image/books_in_hand.jpg" alt="">
-            </div>
-
         </section>
         <!--creating cards on the landing page-->
         <section id="landing_card">
@@ -94,6 +96,6 @@
     
         </div>
     </footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>
