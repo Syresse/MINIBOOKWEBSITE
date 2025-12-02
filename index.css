@@ -315,4 +315,11 @@ i{
   .menu_button{
     display: inline;
   }
+  #first_child{
+    flex-wrap: wrap;
+  }
+  .b_list{
+    padding: 1rem 0rem;
+  }
+  
 }
