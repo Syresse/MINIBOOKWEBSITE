@@ -319,7 +319,8 @@ i{
     flex-wrap: wrap;
   }
   .b_list{
-    padding: 1rem 0rem;
+    flex: 0 1 20rem;
+    
   }
   
 }

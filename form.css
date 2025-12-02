@@ -51,7 +51,7 @@
     }
     span{
         position: absolute;
-        left: 98%;
+        left: 93%;
         top: 61%;
     }
     
@@ -133,7 +133,15 @@
     display: inline;
   }
   #actual_form{
-    width: 100%;
+    width: 85%;
+  }
+  #form_content{
+    span{
+        left: 90%;
+    }
+  }
+  #contact_form{
+    min-height: 60vh;
   }
   #first_child{
     flex-wrap: wrap;
