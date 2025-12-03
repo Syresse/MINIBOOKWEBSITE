@@ -268,6 +268,7 @@
   #first_landingcard{
     width: 78%;
     justify-content: center;
+    padding: 0rem 1rem;
     gap: 1rem;
     p{
         text-align: center;
