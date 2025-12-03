@@ -266,7 +266,8 @@
     }
   }
   #first_landingcard{
-    width: 80%;
+    width: 78%;
+    justify-content: center;
     gap: 1rem;
     p{
         text-align: center;
