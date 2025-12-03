@@ -267,12 +267,15 @@
   }
   #first_landingcard{
     width: 78%;
-    justify-content: center;
-    padding: 0rem 1rem;
-    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    h3{
+        font-size: 30px;
+    }
     p{
         text-align: center;
     }
   }
+  
 }
 
