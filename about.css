@@ -238,8 +238,8 @@
   #first_child{
     flex-wrap: wrap;
   }
-  .b_list{
-    padding: 1rem 0rem;
+  #last_lcard{
+    width: 100%;
   }
   #about_message{
     padding-top: 1rem;
@@ -252,6 +252,24 @@
   .l_card{
     li{
         line-height: 20px;
+    }
+  }
+  #about_message2{
+    min-height: 41.5vh;
+  }
+  
+  #welcome_message{
+    width: 65%;
+    min-height: 30vh;
+    p{
+        text-align: center;
+    }
+  }
+  #first_landingcard{
+    width: 90%;
+    gap: 1rem;
+    p{
+        text-align: center;
     }
   }
 }

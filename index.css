@@ -317,10 +317,20 @@ i{
   }
   #first_child{
     flex-wrap: wrap;
+    padding: 0rem 0rem;
   }
-  .b_list{
-    flex: 0 1 20rem;
-    
+  .f_list2{
+    padding-left: 0rem;
   }
-  
+  .f_list4{
+    button{
+        font-size: 9px;
+    }
+  }
+  .f_list5{
+    gap: 1rem;
+  }
+  .f_list3{
+    padding-right: 6rem;
+  }
 }
