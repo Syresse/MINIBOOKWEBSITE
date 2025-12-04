@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+/*
+ * simple navigation bar
+ * global stylings
+*/
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size:16px;
+}
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+a{
+    text-decoration: none;
+    color: #2C3E50;
+}
+i{
+    color: #E67E22;
+}
+
+/*
+  header section of the webpage
+  including a nav_bar(logo and nav_links or pages)
+  Primary: #2C3E50 (deep navy) Secondary: #ECF0F1 (off-white gray) Accent: #E67E22 (warm orange)
+  Text: #2D3436 (dark gray) Background: #FFFFFF
+*/
+#navigation{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: #ECF0F1 ;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.041);
+    color:#2C3E50;
+}
+#nav_bar{
+    min-height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 86%;
+    margin: auto;
+}
+.nav_list{
+    display: flex;
+    flex: 1 1 26rem;
+    justify-content: space-between;
+    list-style: none;
+    li{
+        padding: 0.4rem 0rem;
+    }
+}
+
+#logo{
+    flex: 2 1 26rem;
+}
+#half_logo{
+    color: #E67E22;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+#half_logo2{
+    
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.active{
+    border-bottom: #E67E22 2px solid;
+    
+}
+.menu_button{
+    color: #E67E22;
+    font-size: 25px;
+    cursor: pointer;
+    flex: 1 1 15rem;
+    display: none;
+}
+/*now moving on to the landing page of the services tab*/
+#into_message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 1.5rem;
+    h3{
+        color: #E67E22;
+        font-size: 40px;
+    }
+    p{
+        font-size: 12px;
+        text-align: center;
+        width: 50%;
+    }
+}
+#services_lcard{
+     width: 65%;
+    margin: auto;
+    min-height: 35vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0rem;
+    flex-wrap: wrap;
+}
+#lcard_top_row{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+#lcard_down_row{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.paragraph{
+    p{
+        font-size: 12px;
+        padding: 1rem 0rem;
+    }
+}
+.parent i{
+    font-size: 15px;
+}
+.heading{
+   
+    height: 62px;
+    width: 100%;
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.153);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.parent{
+    gap: 3rem;
+    flex: 1 1 25rem;
+}

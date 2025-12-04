@@ -167,6 +167,16 @@
     font-size: 11px;
     flex: 1 1 15rem;
 }
+.l_card:hover{
+    background-color: #9c9797;
+    transform: scale(1.02,1.02);
+    i{
+       color: #E67E22;
+    }
+    p{
+        color: white;
+    }
+}
 
 .l_card i{
     font-size: 23px;
