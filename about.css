@@ -168,7 +168,7 @@
     flex: 1 1 15rem;
 }
 .l_card:hover{
-    background-color: #9c9797;
+    background-color: #b9b9b9;
     transform: scale(1.02,1.02);
     i{
        color: #E67E22;

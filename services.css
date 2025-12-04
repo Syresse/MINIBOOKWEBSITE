@@ -107,7 +107,7 @@ i{
     }
 }
 #services_lcard{
-     width: 65%;
+    width: 65%;
     margin: auto;
     min-height: 35vh;
     
@@ -121,12 +121,12 @@ i{
 #lcard_top_row{
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 3rem;
 }
 #lcard_down_row{
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .paragraph{
@@ -155,4 +155,23 @@ i{
 .parent{
     gap: 3rem;
     flex: 1 1 25rem;
+}
+@media (max-width="812px") {
+   #services_lcard{
+       width: 100%;
+   }
+   #lcard_top_row{
+        gap: 0;
+   }
+   #lcard_down_row{
+        gap: 0;
+   }
+}
+@media (max-width="600px") {
+    #services_lcard{
+        width: 40%;
+    }
+    #intro_mesaage{
+        width: 55%;
+    }
 }
